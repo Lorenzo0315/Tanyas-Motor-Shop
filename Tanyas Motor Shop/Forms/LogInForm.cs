@@ -47,7 +47,24 @@ namespace Tanyas_Motor_Shop.Forms
 
         private void Loginbtn_Click(object sender, EventArgs e)
         {
+            // Sample username and password (YOU CAN CHANGE THIS)
+            string username = Usernametb.Text;
+            string password = Passwordtb.Text;
 
+            // Very simple example login (replace with DB login later)
+            if (username == "admin" && password == "1234")
+            {
+                // Open MainForm
+                Mainform main = new Mainform();
+                main.Show();
+
+                // Hide current LoginForm
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 
