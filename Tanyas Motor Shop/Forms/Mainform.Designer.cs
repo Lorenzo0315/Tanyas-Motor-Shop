@@ -180,6 +180,7 @@
             Homebtn.TabIndex = 1;
             Homebtn.Text = "Home";
             Homebtn.UseVisualStyleBackColor = false;
+            Homebtn.Click += Homebtn_Click;
             // 
             // Logopnl
             // 

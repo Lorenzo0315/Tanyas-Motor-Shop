@@ -20,9 +20,23 @@ namespace Tanyas_Motor_Shop.Forms
 
         private void Homebtn_Click(object sender, EventArgs e, object mainpnl)
         {
-          
+
         }
 
+        public void HomeUC(UserControl uc)
+        {
+            mainpnl.Controls.Clear();
+            uc.Dock = DockStyle.Fill;
+            mainpnl.Controls.Add(uc);
+            uc.BringToFront();
+        }
+
+
+        private void Homebtn_Click(object sender, EventArgs e)
+        {
+            HomeUC home = new HomeUC(); // create instance of your Home UserControl
+            HomeUC(home);      // load inside MainForm panel
+        }
     }
 }
 
