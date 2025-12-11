@@ -73,6 +73,16 @@ namespace Tanyas_Motor_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11_ {
+            get {
+                object obj = ResourceManager.GetObject("11)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ge {
             get {
                 object obj = ResourceManager.GetObject("ge", resourceCulture);
@@ -86,6 +96,16 @@ namespace Tanyas_Motor_Shop.Properties {
         internal static System.Drawing.Bitmap HOMEUI {
             get {
                 object obj = ResourceManager.GetObject("HOMEUI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap s_ {
+            get {
+                object obj = ResourceManager.GetObject("s)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -141,6 +141,7 @@
             Salesbtn.TabIndex = 4;
             Salesbtn.Text = "Sales Management";
             Salesbtn.UseVisualStyleBackColor = false;
+            Salesbtn.Click += Salesbtn_Click;
             // 
             // Supplierbtn
             // 
@@ -167,6 +168,7 @@
             Partsbtn.TabIndex = 2;
             Partsbtn.Text = "Parts Management";
             Partsbtn.UseVisualStyleBackColor = false;
+            Partsbtn.Click += Partsbtn_Click;
             // 
             // Homebtn
             // 
@@ -216,6 +218,8 @@
             Controls.Add(mainpnl);
             Controls.Add(Sidebarpnl);
             Controls.Add(Dashboardpnl);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Mainform";
             Text = "Tanya's Motor Shop";
             Dashboardpnl.ResumeLayout(false);
