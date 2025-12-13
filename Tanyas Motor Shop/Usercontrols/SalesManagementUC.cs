@@ -34,6 +34,9 @@ namespace Tanyas_Motor_Shop.Usercontrols
             // Additional setup logic if needed
         }
 
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

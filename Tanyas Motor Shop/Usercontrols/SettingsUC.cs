@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Tanyas_Motor_Shop.Usercontrols
 {
-    public partial class HomeUC : UserControl
+    public partial class SettingsUC : UserControl
     {
-        public HomeUC()
+        public SettingsUC()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void HomeUC_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

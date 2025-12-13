@@ -52,10 +52,10 @@ namespace Tanyas_Motor_Shop.Forms
             string password = Passwordtb.Text;
 
             // Very simple example login (replace with DB login later)
-            if (username == "admin" && password == "1234")
+            if (username == "admin" && password == "admin123")
             {
                 // Open MainForm
-                Mainform main = new Mainform();
+                Mainform2 main = new Mainform2();
                 main.Show();
 
                 // Hide current LoginForm
