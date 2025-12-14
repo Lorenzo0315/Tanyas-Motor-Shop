@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tanyas_Motor_Shop.Usercontrols;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Tanyas_Motor_Shop.Forms
 {
@@ -107,6 +108,17 @@ namespace Tanyas_Motor_Shop.Forms
             uc.Dock = DockStyle.Fill;
             mainpnl.Controls.Add(uc);
             uc.BringToFront();
+        }
+
+        private void Viewbtn_Click(object sender, EventArgs e)
+        {
+            // 1. I-instantiate ang new form (AddItemForm)
+            AddItemForm newForm = new AddItemForm();
+
+            // 2. I-show ang AddItemForm (non-modal or modal, mas maayo ang modal para ani nga setup)
+            newForm.Show(); // Gamita Show() kung gusto mo-display lang
+
+          
         }
     }
 }

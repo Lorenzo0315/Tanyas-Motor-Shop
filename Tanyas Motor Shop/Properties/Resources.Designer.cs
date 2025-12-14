@@ -83,6 +83,16 @@ namespace Tanyas_Motor_Shop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ADD_ITEM_UI {
+            get {
+                object obj = ResourceManager.GetObject("ADD ITEM UI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ge {
             get {
                 object obj = ResourceManager.GetObject("ge", resourceCulture);
@@ -226,6 +236,26 @@ namespace Tanyas_Motor_Shop.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_12_14_0040107 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-12-14 0040107", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_12_14_0040108 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-12-14 0040108", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_12_14_0040109 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-12-14 0040109", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

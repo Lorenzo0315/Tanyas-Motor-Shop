@@ -168,13 +168,14 @@
             Viewbtn.BackgroundImage = Properties.Resources.Screenshot_2025_12_14_004010;
             Viewbtn.Font = new Font("Montserrat SemiBold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Viewbtn.ForeColor = SystemColors.ButtonFace;
-            Viewbtn.Location = new Point(347, 632);
+            Viewbtn.Location = new Point(414, 629);
             Viewbtn.Name = "Viewbtn";
             Viewbtn.Padding = new Padding(1);
-            Viewbtn.Size = new Size(349, 84);
+            Viewbtn.Size = new Size(268, 61);
             Viewbtn.TabIndex = 5;
-            Viewbtn.Text = "SHOP NOW!";
+            Viewbtn.Text = "ADD ITEM?";
             Viewbtn.UseVisualStyleBackColor = false;
+            Viewbtn.Click += Viewbtn_Click;
             // 
             // Mainform2
             // 
